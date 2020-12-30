@@ -20,9 +20,14 @@ jobs:
         sudo apt-get install -y gcc-7 g++-7
         sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 70 --slave /usr/bin/g++ g++ /usr/bin/g++-7
         sudo apt-get install -y tcl8.6-dev
-    - name: configure
-      run: make ubuntu
-    - name: make
-      run: make build
-    - name: install
-      run: sudo make install
+    - name: configure tnm
+      working-directory: tnm
+      run: |
+        autoreconf -vi
+        ./configure --with-tcl=/usr/local/lib
+    - name: make tnm
+      working-directory: tnm
+      run: make
+    - name: install tnm
+      working-directory: tnm
+      run: sudo make install sinstall
