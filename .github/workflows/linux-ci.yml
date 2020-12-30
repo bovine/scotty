@@ -24,7 +24,7 @@ jobs:
       working-directory: tnm
       run: |
         autoreconf -vi
-        ./configure --with-tcl=/usr/local/lib
+        ./configure --with-tcl=/usr/lib/tcl8.6
     - name: make tnm
       working-directory: tnm
       run: make
