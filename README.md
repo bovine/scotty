@@ -259,9 +259,8 @@ Ressources remaining from the founders time:
 * Jürgens
   [SVN repository](https://cnds.eecs.jacobs-university.de/svn/schoenw/src/scotty/)
   at Jacobs University.
-*
-[Mailing list archive](https://mail.ibr.cs.tu-bs.de/pipermail/tkined/)
-at Braunschweig university.
+* [Mailing list archive](https://mail.ibr.cs.tu-bs.de/pipermail/tkined/)
+  at Braunschweig university.
 
 Some pages on the Tclers Wiki, discussing the status at different
 points of time:
@@ -270,9 +269,3 @@ points of time:
 * [Scotty in 2003](http://wiki.tcl.tk/8437)
 * [Scotty in 2004](http://wiki.tcl.tk/12640)
 
-
-
-# Emacs
-# Local Variables:
-# mode: markdown
-# End:
