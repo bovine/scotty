@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/flightaware/scotty.svg?branch=master)](https://travis-ci.org/flightaware/scotty)
+![Linux CI](https://github.com/bovine/scotty/workflows/Linux%20CI/badge.svg)
+![Mac CI](https://github.com/bovine/scotty/workflows/Mac%20CI/badge.svg)
 
 Welcome to the _scotty_ Tcl extension for network management
 
